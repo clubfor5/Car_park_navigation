@@ -1,0 +1,59 @@
+{
+  "normalSensors": [
+    {
+      "systemId": 0,
+      "type": "Accelerometer",
+      "name": "ACCELEROMETER",
+      "maxRange": 78.45320129394531,
+      "resolution": 0.0012000000569969416,
+      "minDelayMicrosecond": 5000,
+      "minFIFO": 3000,
+      "maxFIFO": 4500,
+      "powerMiliAmpere": 0.0010000000474974513,
+      "version": 1,
+      "vendor": "MTK"
+    },
+    {
+      "systemId": 1,
+      "type": "MagneticField",
+      "name": "MAGNETOMETER",
+      "maxRange": 4912.0,
+      "resolution": 0.15000000596046448,
+      "minDelayMicrosecond": 20000,
+      "minFIFO": 600,
+      "maxFIFO": 4500,
+      "powerMiliAmpere": 0.0010000000474974513,
+      "version": 1,
+      "vendor": "MTK"
+    },
+    {
+      "systemId": 2,
+      "type": "Unknown",
+      "name": "ORIENTATION",
+      "maxRange": 360.0,
+      "resolution": 0.00390625,
+      "minDelayMicrosecond": 5000,
+      "minFIFO": 0,
+      "maxFIFO": 0,
+      "powerMiliAmpere": 0.0010000000474974513,
+      "version": 1,
+      "vendor": "MTK"
+    },
+    {
+      "systemId": 3,
+      "type": "Gyroscope",
+      "name": "MMC3630KJ-pseudo-gyro",
+      "maxRange": 34.90660095214844,
+      "resolution": 0.0010999999940395355,
+      "minDelayMicrosecond": 5000,
+      "minFIFO": 0,
+      "maxFIFO": 0,
+      "powerMiliAmpere": 0.0010000000474974513,
+      "version": 1,
+      "vendor": "MTK"
+    }
+  ],
+  "derivedSensors": [
+    "ibeaconScanner"
+  ]
+}

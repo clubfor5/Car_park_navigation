@@ -1,0 +1,59 @@
+{
+  "normalSensors": [
+    {
+      "systemId": 0,
+      "type": "Accelerometer",
+      "name": "rohm-kx023",
+      "maxRange": 78.45320129394531,
+      "resolution": 9.576806405675597E-6,
+      "minDelayMicrosecond": 5000,
+      "minFIFO": 0,
+      "maxFIFO": 0,
+      "powerMiliAmpere": 0.23000000417232513,
+      "version": 1,
+      "vendor": "KIONIX"
+    },
+    {
+      "systemId": 1,
+      "type": "MagneticField",
+      "name": "mag-mmc5603",
+      "maxRange": 2000.0,
+      "resolution": 0.0625,
+      "minDelayMicrosecond": 10000,
+      "minFIFO": 0,
+      "maxFIFO": 0,
+      "powerMiliAmpere": 6.800000190734863,
+      "version": 1,
+      "vendor": "memsic"
+    },
+    {
+      "systemId": 2,
+      "type": "Unknown",
+      "name": "orientation",
+      "maxRange": 360.0,
+      "resolution": 0.10000000149011612,
+      "minDelayMicrosecond": 10000,
+      "minFIFO": 0,
+      "maxFIFO": 0,
+      "powerMiliAmpere": 13.0,
+      "version": 1,
+      "vendor": "huawei"
+    },
+    {
+      "systemId": 10,
+      "type": "SignificantMotion",
+      "name": "significant Motion",
+      "maxRange": 2.147483648E9,
+      "resolution": 1.0,
+      "minDelayMicrosecond": -1,
+      "minFIFO": 0,
+      "maxFIFO": 0,
+      "powerMiliAmpere": 0.23000000417232513,
+      "version": 1,
+      "vendor": "huawei"
+    }
+  ],
+  "derivedSensors": [
+    "ibeaconScanner"
+  ]
+}

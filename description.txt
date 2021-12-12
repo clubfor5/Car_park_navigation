@@ -1,0 +1,11 @@
+TrialNum    phone    car   driver
+1-10        M        M      M
+11-20       MM       M      M
+21-30       GP       M      M
+31-40       MM       M      A1
+41-46:      MM       A2     A2
+47-52:      MM       A2     M
+53-58:      MM       A2     AN
+59-64:      MM       MB     M                     
+3 phones; 3 cars; 4 drivers
+
